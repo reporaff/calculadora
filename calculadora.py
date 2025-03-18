@@ -3,7 +3,7 @@ import sys
 def multiplicar(a, b):
     return a * b
 
-#Main ..
+#Main. ..
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
