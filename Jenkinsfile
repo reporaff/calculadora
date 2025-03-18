@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonar código') {
             steps {
-                git 'https://github.com/TU_USUARIO/python_calculator.git'
+                git 'https://github.com/reporaff/calculadora.git'
             }
         }
         
