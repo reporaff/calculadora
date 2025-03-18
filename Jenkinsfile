@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         GIT_URL = 'https://github.com/reporaff/calculadora.git'
-        BRANCH = 'main'  // Asegúrate de que sea la rama correcta
-        PYTHON_VERSION = '3.8'  // Cambia según la versión de Python que necesites
+        BRANCH = 'main'  
+        PYTHON_VERSION = '3.8' 
     }
 
     stages {
@@ -42,7 +42,7 @@ pipeline {
             }
             steps {
                 echo 'Desplegando aplicación...'
-                // Aquí puedes agregar comandos de despliegue (Docker, Kubernetes, etc.)
+                
             }
         }
     }
