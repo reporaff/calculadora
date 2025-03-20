@@ -1,4 +1,4 @@
-#..
+#...
 import sys
 
 def multiplicar(a, b):
