@@ -6,7 +6,7 @@ class TestCalculadora(unittest.TestCase):
         self.assertEqual(multiplicar(2, 3), 6)
         self.assertEqual(multiplicar(-1, 5), -5)
         self.assertEqual(multiplicar(0, 100), 0)
-        self.assertEqual(multiplicar(3.5, 2), 8.0)
+        self.assertEqual(multiplicar(3.5, 2), 7.0)
 
 if __name__ == "__main__":
     unittest.main()
